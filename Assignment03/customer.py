@@ -1,13 +1,28 @@
 """
     Customer class
 
-    This class holds the customer information
+    This class holds the customer information. It also encapsulates
+    key functionalities which are specific to a customer
 
     Customer information include:
         1. Name
         2. Minimum and Maximum nights the customer can rent a tool
         3. Minimum and Maximum number of tools a person can rent
         4. Active rentals
+
+    Main responsibilities of the customer class include:
+        1. Checking for validity of a request
+        2. Creating a random request consisting of chosing random categories and
+            random nights
+        3. Maintaining the active rentals per customer
+
+    There are 3 types of customers:
+        1. Business
+        2. Casual
+        3. Regular
+
+    Each of these are represented as classes who inherit from the Customer Base Class.
+
 """
 from random import randint
 
@@ -48,15 +63,41 @@ class Customer:
 
         return tool_category_map
 
+"""
+    Business Customer class
+    
+    A subclass of the Customer Class instantiated with the 
+    minimum/maximum rentable nights and minimum/maximum rentable tools
+    pertaining to the Business Customer.
+"""
+
 class BusinessCustomer(Customer):
     def __init__(self, name):
         super().__init__(name, 7, 7, 3, 3)
 
 
+"""
+    Regular Customer class
+
+    A subclass of the Customer Class instantiated with the 
+    minimum/maximum rentable nights and minimum/maximum rentable tools
+    pertaining to the Regular Customer.
+
+"""
+
 class RegularCustomer(Customer):
     def __init__(self, name):
         super().__init__(name, 3, 5, 1, 3)
 
+
+"""
+    Casual Customer class
+
+    A subclass of the Customer Class instantiated with the 
+    minimum/maximum rentable nights and minimum/maximum rentable tools
+    pertaining to the Casual Customer.
+
+"""
 
 class CasualCustomer(Customer):
     def __init__(self, name):

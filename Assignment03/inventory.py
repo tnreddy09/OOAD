@@ -13,6 +13,9 @@
         2. A check for the number of tools before a transaction is processed
         3. Handling the renting of the tools
         4. Handling the returning of the tools
+
+    The handling of the renting and the returning of the tools is delegated from
+    the inventory class to the Section class.
 """
 
 
@@ -55,6 +58,26 @@ class Inventory:
 
 """
     Section class
+    
+    This class holds the information of a particular category
+    
+    The categories as mentioned in the problem statement can be follows:
+        1. Painting 
+        2. Concrete
+        3. Plumbing
+        4. Woodwork
+        5. Yardwork
+    
+    This class holds the following information:
+        1. Name of the category
+        2. Price of the tools in the category
+        3. Number of tools in the category
+        
+    Main responsibilities of this class includes:
+        1. Adding tools to the section - called during init time by the Inventory object
+        2. Rent tools from this section
+        3. Returning tools to this section
+        4. Returning the price of the tools in this section.
     
     
 """

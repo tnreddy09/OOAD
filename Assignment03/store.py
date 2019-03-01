@@ -20,6 +20,7 @@
         2. Updating the rentals on the return date of the rental
         3. Holding information regarding active rentals and completed rentals
         4. Creating a rental object and storing it in Rental Object list
+        5. Validating the requests by the customer
 
 
 """
