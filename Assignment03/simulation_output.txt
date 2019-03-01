@@ -1,0 +1,1277 @@
+/home/amith/anaconda3/bin/python /home/amith/OOAD/Assignment03/simulator.py
+****************************************************************************************************
+CUSTOMERS OF THE STORE
+****************************************************************************************************
+CUSTOMER 1 is REGULAR type customer
+CUSTOMER 2 is BUSINESS type customer
+CUSTOMER 3 is CASUAL type customer
+CUSTOMER 4 is BUSINESS type customer
+CUSTOMER 5 is BUSINESS type customer
+CUSTOMER 6 is BUSINESS type customer
+CUSTOMER 7 is CASUAL type customer
+CUSTOMER 8 is REGULAR type customer
+CUSTOMER 9 is REGULAR type customer
+CUSTOMER 10 is BUSINESS type customer
+
+
+
+****************************************************************************************************
+DAY NUMBER - 0
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 1 who is a REGULAR type customer RENTED 2 items on Day 1 for 4 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+Cost for the Rental - $ 58
+
+
+CUSTOMER 9 who is a REGULAR type customer RENTED 3 items on Day 1 for 5 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 5
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 33
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 1
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 5 who is a BUSINESS type customer RENTED 3 items on Day 2 for 7 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+category: Painting, number of tools: 1, tools: Painting - 0
+Cost for the Rental - $ 74
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 2
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 2 items on Day 3 for 3 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 26
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 3
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RENTED 2 items on Day 4 for 1 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 3
+Cost for the Rental - $ 25
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 4
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 4 for 1 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 3
+Cost for the Rental - $ 25
+
+
+CUSTOMER 1 who is a REGULAR type customer RETURNED 2 items on Day 1 for 4 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+Cost for the Rental - $ 58
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 1 who is a REGULAR type customer RENTED 3 items on Day 5 for 5 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 3
+Cost for the Rental - $ 34
+
+
+CUSTOMER 7 who is a CASUAL type customer RENTED 2 items on Day 5 for 1 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+Cost for the Rental - $ 65
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 5
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 5 for 1 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+Cost for the Rental - $ 65
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 2 items on Day 3 for 3 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 26
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 3 items on Day 1 for 5 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 5
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 33
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RENTED 2 items on Day 6 for 2 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 31
+
+
+CUSTOMER 6 who is a BUSINESS type customer RENTED 3 items on Day 6 for 7 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 33
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 6
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RENTED 1 items on Day 7 for 1 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 10
+
+
+CUSTOMER 9 who is a REGULAR type customer RENTED 3 items on Day 7 for 5 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 7
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RETURNED 1 items on Day 7 for 1 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 10
+
+
+CUSTOMER 3 who is a CASUAL type customer RETURNED 2 items on Day 6 for 2 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 31
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 8
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 5 who is a BUSINESS type customer RETURNED 3 items on Day 2 for 7 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+category: Painting, number of tools: 1, tools: Painting - 0
+Cost for the Rental - $ 74
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 1 items on Day 9 for 5 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+Cost for the Rental - $ 16
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 9
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 1 who is a REGULAR type customer RETURNED 3 items on Day 5 for 5 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 3
+Cost for the Rental - $ 34
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 2 who is a BUSINESS type customer RENTED 3 items on Day 10 for 7 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 0
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+Cost for the Rental - $ 68
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 10
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RENTED 2 items on Day 11 for 2 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+Cost for the Rental - $ 31
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 11
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RETURNED 3 items on Day 7 for 5 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 1 items on Day 12 for 4 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 10
+
+
+CUSTOMER 9 who is a REGULAR type customer RENTED 2 items on Day 12 for 3 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 23
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 12
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 11 for 2 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+Cost for the Rental - $ 31
+
+
+CUSTOMER 6 who is a BUSINESS type customer RETURNED 3 items on Day 6 for 7 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 33
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 4 who is a BUSINESS type customer RENTED 3 items on Day 13 for 7 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Concrete, number of tools: 1, tools: Concrete - 5
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 13
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RETURNED 1 items on Day 9 for 5 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+Cost for the Rental - $ 16
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 1 items on Day 14 for 3 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+Cost for the Rental - $ 15
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 14
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RETURNED 2 items on Day 12 for 3 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 23
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RENTED 2 items on Day 15 for 3 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 4
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 25
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 15
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RETURNED 1 items on Day 12 for 4 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 10
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 2 items on Day 16 for 5 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 31
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 16
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RETURNED 1 items on Day 14 for 3 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+Cost for the Rental - $ 15
+
+
+CUSTOMER 2 who is a BUSINESS type customer RETURNED 3 items on Day 10 for 7 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 0
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+Cost for the Rental - $ 68
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RENTED 2 items on Day 17 for 2 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 26
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 17
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RETURNED 2 items on Day 15 for 3 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 4
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 25
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 1 who is a REGULAR type customer RENTED 2 items on Day 18 for 4 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 26
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 18
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 17 for 2 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 26
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 5 who is a BUSINESS type customer RENTED 3 items on Day 19 for 7 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Painting, number of tools: 1, tools: Painting - 0
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 19
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 4 who is a BUSINESS type customer RETURNED 3 items on Day 13 for 7 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Concrete, number of tools: 1, tools: Concrete - 5
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 2 who is a BUSINESS type customer RENTED 3 items on Day 20 for 7 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 34
+
+
+CUSTOMER 6 who is a BUSINESS type customer RENTED 3 items on Day 20 for 7 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 73
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 20
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RETURNED 2 items on Day 16 for 5 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 31
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RENTED 3 items on Day 21 for 3 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+Cost for the Rental - $ 33
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 21
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 1 who is a REGULAR type customer RETURNED 2 items on Day 18 for 4 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 26
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 22
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 23
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RETURNED 3 items on Day 21 for 3 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+Cost for the Rental - $ 33
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RENTED 1 items on Day 24 for 3 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 10
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 24
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 9 who is a REGULAR type customer RENTED 2 items on Day 25 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+Cost for the Rental - $ 31
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 25
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 5 who is a BUSINESS type customer RETURNED 3 items on Day 19 for 7 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Painting, number of tools: 1, tools: Painting - 0
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RENTED 2 items on Day 26 for 1 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 24
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 26
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RETURNED 2 items on Day 26 for 1 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 24
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 1 items on Day 24 for 3 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 10
+
+
+CUSTOMER 6 who is a BUSINESS type customer RETURNED 3 items on Day 20 for 7 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 73
+
+
+CUSTOMER 2 who is a BUSINESS type customer RETURNED 3 items on Day 20 for 7 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 34
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 2 items on Day 27 for 3 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 26
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 27
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 2 who is a BUSINESS type customer RENTED 3 items on Day 28 for 7 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+CUSTOMER 5 who is a BUSINESS type customer RENTED 3 items on Day 28 for 7 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Painting, number of tools: 1, tools: Painting - 0
+Cost for the Rental - $ 75
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 28
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 29
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RETURNED 2 items on Day 27 for 3 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 26
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 2 items on Day 25 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+Cost for the Rental - $ 31
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RENTED 2 items on Day 30 for 1 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 18
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 30
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 30 for 1 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 18
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RENTED 1 items on Day 31 for 1 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+Cost for the Rental - $ 16
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 31
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RETURNED 1 items on Day 31 for 1 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+Cost for the Rental - $ 16
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 32
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 8 who is a REGULAR type customer RENTED 1 items on Day 33 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 15
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 33
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 3 who is a CASUAL type customer RENTED 2 items on Day 34 for 2 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 18
+
+
+CUSTOMER 7 who is a CASUAL type customer RENTED 1 items on Day 34 for 2 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+Cost for the Rental - $ 8
+
+
+****************************************************************************************************
+****************************************************************************************************
+DAY NUMBER - 34
+****************************************************************************************************
+
+
+****************************************************************************************************
+RETURNED RENTALS
+****************************************************************************************************
+CUSTOMER 5 who is a BUSINESS type customer RETURNED 3 items on Day 28 for 7 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Painting, number of tools: 1, tools: Painting - 0
+Cost for the Rental - $ 75
+
+
+CUSTOMER 2 who is a BUSINESS type customer RETURNED 3 items on Day 28 for 7 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+RENTALS
+****************************************************************************************************
+CUSTOMER 1 who is a REGULAR type customer RENTED 2 items on Day 35 for 5 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 60
+
+
+CUSTOMER 9 who is a REGULAR type customer RENTED 1 items on Day 35 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 15
+
+
+****************************************************************************************************
+
+
+****************************************************************************************************
+END OF SIMULATION
+****************************************************************************************************
+
+
+Total Revenue of the Store $1420
+
+
+
+
+Tools Remaining - 13
+
+
+Tool: Painting - 0, Category: Painting
+Tool: Concrete - 0, Category: Concrete
+Tool: Concrete - 1, Category: Concrete
+Tool: Concrete - 4, Category: Concrete
+Tool: Concrete - 3, Category: Concrete
+Tool: Plumbing - 1, Category: Plumbing
+Tool: Woodwork - 0, Category: Woodwork
+Tool: Woodwork - 2, Category: Woodwork
+Tool: Yardwork - 0, Category: Yardwork
+Tool: Yardwork - 4, Category: Yardwork
+Tool: Yardwork - 2, Category: Yardwork
+Tool: Yardwork - 3, Category: Yardwork
+Tool: Yardwork - 1, Category: Yardwork
+
+
+****************************************************************************************************
+Active Rentals
+****************************************************************************************************
+Total - 5
+CUSTOMER 8 who is a REGULAR type customer RENTED 1 items on Day 33 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 15
+
+
+CUSTOMER 3 who is a CASUAL type customer RENTED 2 items on Day 34 for 2 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 18
+
+
+CUSTOMER 7 who is a CASUAL type customer RENTED 1 items on Day 34 for 2 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+Cost for the Rental - $ 8
+
+
+CUSTOMER 1 who is a REGULAR type customer RENTED 2 items on Day 35 for 5 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 60
+
+
+CUSTOMER 9 who is a REGULAR type customer RENTED 1 items on Day 35 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 15
+
+
+****************************************************************************************************
+Completed Rentals
+****************************************************************************************************
+Total - 34
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 4 for 1 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 3
+Cost for the Rental - $ 25
+
+
+CUSTOMER 1 who is a REGULAR type customer RETURNED 2 items on Day 1 for 4 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+Cost for the Rental - $ 58
+
+
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 5 for 1 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+Cost for the Rental - $ 65
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 2 items on Day 3 for 3 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 26
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 3 items on Day 1 for 5 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 5
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 33
+
+
+CUSTOMER 3 who is a CASUAL type customer RETURNED 1 items on Day 7 for 1 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 10
+
+
+CUSTOMER 3 who is a CASUAL type customer RETURNED 2 items on Day 6 for 2 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 31
+
+
+CUSTOMER 5 who is a BUSINESS type customer RETURNED 3 items on Day 2 for 7 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+category: Painting, number of tools: 1, tools: Painting - 0
+Cost for the Rental - $ 74
+
+
+CUSTOMER 1 who is a REGULAR type customer RETURNED 3 items on Day 5 for 5 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 3
+Cost for the Rental - $ 34
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 3 items on Day 7 for 5 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 11 for 2 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+Cost for the Rental - $ 31
+
+
+CUSTOMER 6 who is a BUSINESS type customer RETURNED 3 items on Day 6 for 7 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 33
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 1 items on Day 9 for 5 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+Cost for the Rental - $ 16
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 2 items on Day 12 for 3 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 23
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 1 items on Day 12 for 4 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 10
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 1 items on Day 14 for 3 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 2
+Cost for the Rental - $ 15
+
+
+CUSTOMER 2 who is a BUSINESS type customer RETURNED 3 items on Day 10 for 7 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 0
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+Cost for the Rental - $ 68
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 2 items on Day 15 for 3 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 4
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 25
+
+
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 17 for 2 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 26
+
+
+CUSTOMER 4 who is a BUSINESS type customer RETURNED 3 items on Day 13 for 7 nights
+item information
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Concrete, number of tools: 1, tools: Concrete - 5
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+Cost for the Rental - $ 76
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 2 items on Day 16 for 5 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 4
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+Cost for the Rental - $ 31
+
+
+CUSTOMER 1 who is a REGULAR type customer RETURNED 2 items on Day 18 for 4 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 4
+Cost for the Rental - $ 26
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 3 items on Day 21 for 3 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+Cost for the Rental - $ 33
+
+
+CUSTOMER 5 who is a BUSINESS type customer RETURNED 3 items on Day 19 for 7 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Painting, number of tools: 1, tools: Painting - 0
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+CUSTOMER 3 who is a CASUAL type customer RETURNED 2 items on Day 26 for 1 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 24
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 1 items on Day 24 for 3 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+Cost for the Rental - $ 10
+
+
+CUSTOMER 6 who is a BUSINESS type customer RETURNED 3 items on Day 20 for 7 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 0
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+Cost for the Rental - $ 73
+
+
+CUSTOMER 2 who is a BUSINESS type customer RETURNED 3 items on Day 20 for 7 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 34
+
+
+CUSTOMER 8 who is a REGULAR type customer RETURNED 2 items on Day 27 for 3 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 26
+
+
+CUSTOMER 9 who is a REGULAR type customer RETURNED 2 items on Day 25 for 5 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 3
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+Cost for the Rental - $ 31
+
+
+CUSTOMER 7 who is a CASUAL type customer RETURNED 2 items on Day 30 for 1 nights
+item information
+category: Plumbing, number of tools: 1, tools: Plumbing - 2
+category: Concrete, number of tools: 1, tools: Concrete - 5
+Cost for the Rental - $ 18
+
+
+CUSTOMER 3 who is a CASUAL type customer RETURNED 1 items on Day 31 for 1 nights
+item information
+category: Yardwork, number of tools: 1, tools: Yardwork - 3
+Cost for the Rental - $ 16
+
+
+CUSTOMER 5 who is a BUSINESS type customer RETURNED 3 items on Day 28 for 7 nights
+item information
+category: Woodwork, number of tools: 1, tools: Woodwork - 1
+category: Concrete, number of tools: 1, tools: Concrete - 3
+category: Painting, number of tools: 1, tools: Painting - 0
+Cost for the Rental - $ 75
+
+
+CUSTOMER 2 who is a BUSINESS type customer RETURNED 3 items on Day 28 for 7 nights
+item information
+category: Concrete, number of tools: 1, tools: Concrete - 2
+category: Painting, number of tools: 1, tools: Painting - 1
+category: Yardwork, number of tools: 1, tools: Yardwork - 1
+Cost for the Rental - $ 76
+
+
+****************************************************************************************************
+
+Process finished with exit code 0
