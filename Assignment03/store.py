@@ -45,6 +45,13 @@ class Store:
                 rental.print_report("RETURNED")
                 self.inventory.return_tools(rental.rented_tools)
 
+    def get_active_rentals(self):
+        return self.active_rentals
+
+    def get_completed_rentals(self):
+        return self.completed_rentals
+
+
 class Rental:
     def __init__(self, customer, rental_day, day_of_return, rented_tools_map, amount):
         self.customer = customer

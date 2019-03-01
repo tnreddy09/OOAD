@@ -67,6 +67,49 @@ if __name__ == "__main__":
 
         print("*" * 100)
 
+    print("\n\n")
+    print("END OF SIMULATION")
+    print("Total Revenue of the Store ${}".format(rentalStore.amount))
+
+    sections = inventory.get_sections()
+    tools_remaining = []
+    for name in sections:
+        for tool in sections[name].get_tools():
+            tools_remaining.append("Tool: {}, Category: {}".format(tool, name))
+
+
+    print("Tools Remaining - {}".format(len(tools_remaining)))
+
+    for tool in tools_remaining:
+        print(tool)
+
+    print("\n\n")
+    print("*" * 100)
+    print("Active Rentals")
+    print("*" * 100)
+
+    active_rentals = rentalStore.get_active_rentals()
+
+    print("Total - {}".format(len(active_rentals)))
+
+    for active_rental in active_rentals:
+        active_rental.print_report("RENTED")
+
+    print("*" * 100)
+
+    print("Completed Rentals")
+
+    print("*" * 100)
+
+    completed_rentals = rentalStore.get_completed_rentals()
+    print("Total - {}".format(len(completed_rentals)))
+
+    for completed_rental in completed_rentals:
+        completed_rental.print_report("RETURNED")
+
+    print("*" * 100)
+
+
 
 
 

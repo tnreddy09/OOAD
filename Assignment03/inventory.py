@@ -13,6 +13,9 @@ class Inventory:
             section_dict[section.category_name] = section
         return section_dict
 
+    def get_sections(self):
+        return self.sections
+
     def add_section(self, section):
         self.sections[section.name] = section
 
@@ -54,6 +57,9 @@ class Section:
         rented_tools = self.tools[len(self.tools) - n_tools: len(self.tools)][::-1]
         self.tools = self.tools[:len(self.tools) - n_tools]
         return rented_tools
+
+    def get_tools(self):
+        return self.tools
 
     def return_tools(self, tools):
         self.tools = self.tools + tools
