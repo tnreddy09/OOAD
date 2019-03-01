@@ -43,6 +43,9 @@ class Section:
     def rent_tools(self, n_tools):
         return self.tools[len(self.tools) - n_tools: len(self.tools)][::-1]
 
+    def get_price(self):
+        return self.price
+
 
 if __name__ == '__main__':
     # add section
