@@ -27,12 +27,13 @@
 from random import randint
 
 class Customer:
-    def __init__(self, name, min_nights, max_nights, min_tools, max_tools):
+    def __init__(self, name, min_nights, max_nights, min_tools, max_tools, type):
         self.name = name
         self.min_nights = min_nights
         self.max_nights = max_nights
         self.min_tools = min_tools
         self.max_tools = max_tools
+        self.type = type
         self.active_rentals = 0
 
 
@@ -63,6 +64,8 @@ class Customer:
 
         return tool_category_map
 
+    def print_customer_info(self):
+        print("{} is {} type customer".format(self.name.upper(), self.type.upper()))
 """
     Business Customer class
     
@@ -73,7 +76,7 @@ class Customer:
 
 class BusinessCustomer(Customer):
     def __init__(self, name):
-        super().__init__(name, 7, 7, 3, 3)
+        super().__init__(name, 7, 7, 3, 3, "Business")
 
 
 """
@@ -87,7 +90,7 @@ class BusinessCustomer(Customer):
 
 class RegularCustomer(Customer):
     def __init__(self, name):
-        super().__init__(name, 3, 5, 1, 3)
+        super().__init__(name, 3, 5, 1, 3, "Regular")
 
 
 """
@@ -101,6 +104,6 @@ class RegularCustomer(Customer):
 
 class CasualCustomer(Customer):
     def __init__(self, name):
-        super().__init__(name, 1, 2, 1, 2)
+        super().__init__(name, 1, 2, 1, 2, "Casual")
 
 
