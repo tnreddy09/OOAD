@@ -20,7 +20,7 @@ tool_prices = [50, 10, 8, 15, 16]
 tool_nums = [2, 6, 3, 4, 5]
 
 #the total number of days that the simulation needs to run
-TOTAL_NUM_DAYS=5
+TOTAL_NUM_DAYS=35
 
 
 '''
@@ -51,17 +51,22 @@ TOTAL_NUM_DAYS=5
 if __name__ == "__main__":
     day_num = 0
     customers = []
+    # counter = 0
 
     #create a list of customers
     for customer in customer_list:
         r = randint(0, 2)
         cust = None
-        if r == "Business":
+        if customer_types[r] == "Business":
+            # print("COUNTER BUSINESS %d"%counter)
             cust = BusinessCustomer(customer)
-        elif r == "Regular":
+        elif customer_types[r] == "Regular":
+            # print("COUNTER REGULAR %d"%counter)
             cust = RegularCustomer(customer)
         else:
+            # print("COUNTER CASUAL %d"%counter)
             cust = CasualCustomer(customer)
+        # counter += 1
         customers.append(cust)
 
     #creating an inventory
@@ -76,34 +81,65 @@ if __name__ == "__main__":
     #creating a rental store object
     rentalStore = Store(inventory, customers)
 
+    print("*" * 100)
+    print("CUSTOMERS OF THE STORE")
+    print("*" * 100)
+
+    for cust in customers:
+        cust.print_customer_info()
+        # print(cust.name)
+
+    print("\n\n")
 
     #simulation begins
     while day_num < TOTAL_NUM_DAYS:
-        print("DAY NUMBER - {}".format(day_num))
-        print("\n\n")
-        day_num += 1
+        print("*" * 100)
 
+        print("DAY NUMBER - {}".format(day_num))
+        print("*" * 100)
+
+        print("\n")
+        day_num += 1
+        print("*" * 100)
         print("RETURNED RENTALS")
+        print("*" * 100)
+
         rentalStore.update_rentals(day_num)
 
         print("*" * 100)
+        print("RENTALS")
+        print("*" * 100)
 
         #select a random customer
-        r = randint(0, 9)
-        random_customer = customers[r]
-        tool_category_map = random_customer.get_random_tool_category_map(tool_types)
-        num_nights = random_customer.get_random_nights()
+        for c in range(1, 4):
+            r = 0
+            if c == 1:
+                r = randint(0, 3)
+            elif c == 2:
+                r = randint(4, 7)
+            else:
+                r = randint(8, 9)
 
-        #rent tools from the above chosen tool categories
-        print("RENTALS")
-        rentalStore.rent_tool(random_customer, num_nights, tool_category_map, day_num)
+            random_customer = customers[r]
+            tool_category_map = random_customer.get_random_tool_category_map(tool_types)
+            num_nights = random_customer.get_random_nights()
+
+            #rent tools from the above chosen tool categories
+            #print("RENTALS")
+            rentalStore.rent_tool(random_customer, num_nights, tool_category_map, day_num)
 
         print("*" * 100)
 
     #Calculating TOTAL REVENUE of the store after the simulation ends
-    print("\n\n")
+    print("\n")
+
+    print("*" * 100)
     print("END OF SIMULATION")
+    print("*" * 100)
+
+    print("\n")
     print("Total Revenue of the Store ${}".format(rentalStore.amount))
+    print("\n")
 
     #Calculating Tools remaining in each of the tool sections/categories \
     # after the simulation ends
@@ -113,15 +149,16 @@ if __name__ == "__main__":
         for tool in sections[name].get_tools():
             tools_remaining.append("Tool: {}, Category: {}".format(tool, name))
 
-
+    print("\n")
     print("Tools Remaining - {}".format(len(tools_remaining)))
+    print("\n")
 
     for tool in tools_remaining:
         print(tool)
 
     #Printing out the Active Rentals that are still present after \
     # the simulation ends
-    print("\n\n")
+    print("\n")
     print("*" * 100)
     print("Active Rentals")
     print("*" * 100)
