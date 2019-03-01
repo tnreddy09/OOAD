@@ -16,15 +16,25 @@ class Inventory:
     def add_section(self, section):
         self.sections[section.name] = section
 
-    def is_valid_request(self, category_name, n_tools):
-        return (category_name in self.sections) and len(self.sections[category_name].tools) <= n_tools
+    def is_valid_request(self, tool_category_map):
+        is_valid = True
+        for category_name, n_tools in tool_category_map:
+            is_valid = is_valid and (category_name in self.sections) and len(self.sections[category_name].tools) >= n_tools
+        return is_valid
 
-    def rent_tools(self, category_name, n_tools):
-        rented_tools = self.get_section(category_name).rent_tools(n_tools)
+    def rent_tools(self, tool_category_map):
+        rented_tools = {}
+        for category_name, n_tools in tool_category_map:
+            rented_tools[category_name] = self.get_section(category_name).rent_tools(n_tools)
         return rented_tools
 
     def get_section(self, section_name):
         return self.sections[section_name]
+
+    def return_tools(self, tool_category_map):
+        for category_name, tools in tool_category_map:
+            section = self.get_section(category_name)
+            section.return_tools(tools)
 
 
 class Section:
@@ -41,10 +51,15 @@ class Section:
         return tools
 
     def rent_tools(self, n_tools):
-        return self.tools[len(self.tools) - n_tools: len(self.tools)][::-1]
+        rented_tools = self.tools[len(self.tools) - n_tools: len(self.tools)][::-1]
+        self.tools = self.tools[:len(self.tools) - n_tools]
+        return rented_tools
+
+    def return_tools(self, tools):
+        self.tools.append(tools)
 
     def get_price(self):
-        return self.price
+        return
 
 
 if __name__ == '__main__':
