@@ -5,7 +5,6 @@
 
 class Inventory:
     def __init__(self, categories):
-        self.n_items = 20
         self.sections = self.allocate_tools(categories)
 
     def allocate_tools(self, sections):
@@ -16,6 +15,16 @@ class Inventory:
 
     def add_section(self, section):
         self.sections[section.name] = section
+
+    def is_valid_request(self, category_name, n_tools):
+        return (category_name in self.sections) and len(self.sections[category_name].tools) <= n_tools
+
+    def rent_tools(self, category_name, n_tools):
+        rented_tools = self.sections[category_name].rent_tools(n_tools)
+        return rented_tools
+
+    def get_section(self, section_name):
+        return self.sections[section_name]
 
 
 class Section:
@@ -30,6 +39,9 @@ class Section:
             tools.append("{} - {}".format(self.category_name, i))
 
         return tools
+
+    def rent_tools(self, n_tools):
+        return self.tools[len(self.tools) - n_tools: len(self.tools)][::-1]
 
 
 if __name__ == '__main__':
