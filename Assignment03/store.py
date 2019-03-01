@@ -1,5 +1,27 @@
 """
     Store Class
+
+    This class is created to perform the functions of the \
+    rental store as specified in the problem statement.
+
+    This class represents the rental store and is the most important
+    part of the design.
+
+    This is the link between the customer and the inventory.
+    Any transaction of requested items from the customer
+    goes through the store class.
+
+    The store class creates a Rental object for every
+    requested transaction by the customer and maintains
+    a rental list.
+
+    Main responsibilities of the Store class include:
+        1. Processing the Renting tools request
+        2. Updating the rentals on the return date of the rental
+        3. Holding information regarding active rentals and completed rentals
+        4. Creating a rental object and storing it in Rental Object list
+
+
 """
 
 
@@ -51,6 +73,22 @@ class Store:
     def get_completed_rentals(self):
         return self.completed_rentals
 
+"""
+    Rental Class
+    
+    This class is created to store the transaction that takes place
+    between the customer and the store.
+    
+    It holds all the member variables like the customer, rental_day, 
+    total cost of transaction, day_of_return etc.
+    
+    Main responsibilities include:
+        1. Storing of Transaction information
+        2. Displaying the Transaction information
+    
+    Each Transaction in the design will be stored as a rental object 
+    
+"""
 
 class Rental:
     def __init__(self, customer, rental_day, day_of_return, rented_tools_map, amount):

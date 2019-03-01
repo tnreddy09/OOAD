@@ -1,5 +1,18 @@
 """
     Inventory of the store
+
+    This class holds the information about the
+    different tool sections/categories.
+
+    Initially, an inventory is created by creating an object
+    of this class, creating sections and populating tools into each
+    of this section.
+
+    Main Responsibilities include:
+        1. Adding new sections and tools to the inventory.
+        2. A check for the number of tools before a transaction is processed
+        3. Handling the renting of the tools
+        4. Handling the returning of the tools
 """
 
 
@@ -39,6 +52,12 @@ class Inventory:
             section = self.get_section(category_name)
             section.return_tools(tools)
 
+
+"""
+    Section class
+    
+    
+"""
 
 class Section:
     def __init__(self, name, price, n_tools):

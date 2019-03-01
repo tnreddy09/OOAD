@@ -1,5 +1,13 @@
 """
-    Customer Information
+    Customer class
+
+    This class holds the customer information
+
+    Customer information include:
+        1. Name
+        2. Minimum and Maximum nights the customer can rent a tool
+        3. Minimum and Maximum number of tools a person can rent
+        4. Active rentals
 """
 from random import randint
 
