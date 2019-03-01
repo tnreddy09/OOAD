@@ -20,7 +20,7 @@ class Inventory:
         return (category_name in self.sections) and len(self.sections[category_name].tools) <= n_tools
 
     def rent_tools(self, category_name, n_tools):
-        rented_tools = self.sections[category_name].rent_tools(n_tools)
+        rented_tools = self.get_section(category_name).rent_tools(n_tools)
         return rented_tools
 
     def get_section(self, section_name):
