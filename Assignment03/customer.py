@@ -1,7 +1,7 @@
 """
     Customer Information
 """
-
+from random import randint
 
 class Customer:
     def __init__(self, name, min_nights, max_nights, min_tools, max_tools):
@@ -21,11 +21,24 @@ class Customer:
         return False
 
     def increase_active_rentals(self, n_tools):
-        pass
+        self.active_rentals += n_tools
 
     def decrease_active_rentals(self, n_tools):
-        pass
+        self.active_rentals -= n_tools
 
+    def get_random_nights(self):
+        return randint(self.min_nights, self.max_nights)
+
+    def get_random_tool_category_map(self, categories):
+        tool_category_map = {}
+
+        for selection in range(randint(1,2)):
+            num_tools = randint(self.min_tools, self.max_tools)
+            for i in range(0, num_tools):
+                category = categories[randint(0, 4)]
+                tool_category_map[category] = 1
+
+        return tool_category_map
 
 class BusinessCustomer(Customer):
     def __init__(self, name):

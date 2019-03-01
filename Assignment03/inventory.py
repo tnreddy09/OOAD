@@ -18,13 +18,13 @@ class Inventory:
 
     def is_valid_request(self, tool_category_map):
         is_valid = True
-        for category_name, n_tools in tool_category_map:
+        for category_name,n_tools in tool_category_map.items():
             is_valid = is_valid and (category_name in self.sections) and len(self.sections[category_name].tools) >= n_tools
         return is_valid
 
     def rent_tools(self, tool_category_map):
         rented_tools = {}
-        for category_name, n_tools in tool_category_map:
+        for category_name, n_tools in tool_category_map.items():
             rented_tools[category_name] = self.get_section(category_name).rent_tools(n_tools)
         return rented_tools
 
@@ -32,7 +32,7 @@ class Inventory:
         return self.sections[section_name]
 
     def return_tools(self, tool_category_map):
-        for category_name, tools in tool_category_map:
+        for category_name, tools in tool_category_map.items():
             section = self.get_section(category_name)
             section.return_tools(tools)
 
@@ -56,20 +56,20 @@ class Section:
         return rented_tools
 
     def return_tools(self, tools):
-        self.tools.append(tools)
+        self.tools = self.tools + tools
 
     def get_price(self):
-        return
+        return self.price
 
 
-if __name__ == '__main__':
-    # add section
-    sections = []
-    for name, price, n_tools in zip(["Painting", "Concrete", "Plumbing", "Woodwork", "Yardwork"], [50, 10, 8, 15, 16], [2, 6, 3, 4, 5]):
-        section = Section(name, price, n_tools)
-        sections.append(section)
-
-    inventory = Inventory(sections)
-
-    for section in inventory.sections:
-        print(section, inventory.sections[section].price)
+# if __name__ == '__main__':
+#     # add section
+#     sections = []
+#     for name, price, n_tools in zip(["Painting", "Concrete", "Plumbing", "Woodwork", "Yardwork"], [50, 10, 8, 15, 16], [2, 6, 3, 4, 5]):
+#         section = Section(name, price, n_tools)
+#         sections.append(section)
+#
+#     inventory = Inventory(sections)
+#
+#     for section in inventory.sections:
+#         print(section, inventory.sections[section].price)
