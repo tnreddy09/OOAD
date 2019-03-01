@@ -19,4 +19,5 @@ class Store:
 
 
 class Rental:
-    pass
+    def __init__(self, customer, rental_day, day_of_return):
+        self.customer = customer
