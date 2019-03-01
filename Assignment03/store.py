@@ -101,7 +101,7 @@ class Rental:
 
     def print_report(self, rental_status):
         rented_items = "\n".join(["category: {}, number of tools: {}, tools: {}".format(cat, str(len(self.rented_tools[cat])), ", ".join(self.rented_tools[cat])) for cat in self.rented_tools])
-        print("{} {} {} items on Day {} for {} nights".format(self.customer.name, rental_status,
+        print("{} who is a {} type customer {} {} items on Day {} for {} nights".format(self.customer.name.upper(), self.customer.type.upper(), rental_status,
                                                               self.get_count_rented_items(), self.rental_day,
                                                               self.day_of_return - self.rental_day))
         print("item information")
